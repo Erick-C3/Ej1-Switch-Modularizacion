@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="contenedor-producto">
+        <img src="https://cocina-casera.com/wp-content/uploads/2019/02/Por-que-el-exito-del-Te-Matcha.-Te-lo-explicamos-4-770x485.jpg" alt="img del producto">
+        <p id="nombre-producto">Té de matcha</p>
+        <p id="precio-producto">
+            700$
+        </p>
+        <fieldset>
+            <legend>Cantidad:</legend>
+            <select>
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="7">7</option>
+            </select>
+        </fieldset>
+        <button onclick="agregarProducto()">Agregar</button>
+    </div>
+
+    <button onclick="mostrarSigProducto()">siguiente</button>
+
+    <p id="costo-total">Total: $0</p>
+
+    <div id="contenedor-carrito">
+        <p>Carrito:</p>
+        <ul>
+            <!-- <li></li> -->
+        </ul>
+    </div>
+
+
+    <!-- dejar el script abajo de todo para evitar problemas -->
+    <script src="algoritmo.js"></script>
+</body>
+</html>

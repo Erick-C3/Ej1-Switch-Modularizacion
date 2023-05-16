@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(211, 230, 211);
+
+    display: grid;
+    place-content: center;
+}
+
+img{
+    width: 30vh;
+}
+
+
+#contenedor-producto{
+    background-color: rgb(153, 210, 153);
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: bold;
+
+    padding: 10px;
+    border: 3px solid rgb(76, 75, 75);
+}
+
+#contenedor-producto fieldset{
+    display: grid;
+    place-content: center;
+}
+
+#contenedor-carrito{
+    background-color: whitesmoke;
+    border: 4px dotted rgb(88, 69, 69);
+    font-size: larger;
+    padding: 10px;
+}
+
+#contenedor-carrito p{
+    margin: 0px;
+}
